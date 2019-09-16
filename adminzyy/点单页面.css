@@ -1,0 +1,748 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background: url(./u=2683903014\,4005606522&fm=26&gp=0.jpg);
+    background-size: 100% 100%;
+}
+.background{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0,.3);
+}
+.left-part{
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color:rgb(0, 0, 0,.4);
+}
+.logo{
+    width: 70%;
+    height: 15%;
+    background: url(./ui/logo.png);
+    background-size: 100% 100%;
+    margin-top: 7%;
+    margin-left: 15%
+}
+.option{
+    width: 100%;
+    height: 40%;
+    margin-top: 40%;
+    cursor: pointer;
+}
+.dish{
+    width: 100%;
+    height: 23%;
+    border-top: 1px solid #424242;
+    background-color:rgb(42, 42, 42,.5);
+}
+.dish:hover{
+    transition: .4s;
+    background-color:rgb(42, 42, 42,.5);
+}
+.dish-logo{
+    float: left;
+    width: 15%;
+    height: 80%;
+    background: url(./ui/菜品w.png);
+    background-size: 100% 100% ;
+    margin-left: 30%;
+}
+.dish-text{
+    display:flex; 
+    align-items:center;
+    float: left;
+    width: 30%;
+    height: 80%;
+    color: #ffffff;
+    font-size: 130%;
+    margin-left: 5%;
+
+
+}
+.settle{
+    width: 100%;
+    height: 23%;
+    border-top: 1px solid #424242;
+    border-bottom: 1px solid #424242;
+}
+.settle:hover{
+    transition: .4s;
+    background-color:rgb(42, 42, 42,.5);
+}
+.settle-logo{
+    float: left;
+    width: 15%;
+    height: 60%;
+    background: url(./ui/结账w.png);
+    background-size: 100% 100% ;
+    margin-left: 31%;
+    margin-top: 3%;
+}
+.settle-text{
+    float: left;
+    width: 30%;
+    height: 80%;
+    color: #ffffff;
+    font-size: 130%;
+    margin-left: 4%;
+    margin-top: 5%;
+
+}
+.table{
+    width: 100%;
+    height: 23%;
+    border-top: 1px solid #424242;
+}
+.table:hover{
+    transition: .4s;
+    background-color:rgb(42, 42, 42,.5);
+}
+.table-text{
+    display:flex; 
+    align-items:center;
+    float: left;
+    width: 30%;
+    height: 80%;
+    color: #ffffff;
+    font-size: 130%;
+    margin-left: 5%;
+}
+
+.history-text{
+    display:flex; 
+    align-items:center;
+    float: left;
+    width: 30%;
+    height: 80%;
+    color: #ffffff;
+    font-size: 130%;
+    margin-left: 5%;
+    margin-top: -1%
+}
+.table-logo{
+    float: left;
+    width: 15%;
+    height: 80%;
+    background: url(./ui/桌子.png);
+    background-size: 100% 100% ;
+    margin-left: 30%;
+}
+.history{
+    width: 100%;
+    height: 23%;
+    border-bottom: 1px solid #424242;
+    background-color:rgb(42, 42, 42,.0);
+}
+.history:hover{
+    transition: .4s;
+    background-color:rgb(42, 42, 42,.5);
+}
+.history-logo{
+    float: left;
+    width: 15%;
+    height: 70%;
+    background: url(./ui/订单.png);
+    background-size: 100% 100% ;
+    margin-left: 30%;
+}
+.right-part{
+    float: left;
+    width: 80%;
+    height: 100%;
+
+}
+.top-menu{
+    width: 100%;
+    height: 20%;
+}
+.list1{
+    float: left;
+    width: 20%;
+    height: 40%;
+    margin-left: 5%;
+    margin-top:5%;
+    cursor: pointer;
+}
+.list2{
+    float: left;
+    width: 20%;
+    height: 40%;
+    margin-left: 5%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.list3{
+    float: left;
+    width: 20%;
+    height: 40%;
+    margin-left: 5%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.list4{
+    float: left;
+    width: 20%;
+    height: 40%;
+    margin-left: 5%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.ui-h{
+    float: left;
+    width: 20%;
+    height: 100%;
+    background: url(./ui/堂食-2.png);
+    background-size: 100% 100%;
+}
+.ui-c{
+    float: left;
+    width: 20%;
+    height: 100%;
+    background: url(./ui/菜品-1.png);
+    background-size: 100% 100%;
+}
+.ui-s{
+    float: left;
+    width: 20%;
+    height: 100%;
+    background: url(./ui/汤品.png);
+    background-size: 110% 110%;
+}
+.ui-d{
+    float: left;
+    width: 20%;
+    height: 100%;
+    background: url(./ui/饮料.png);
+    background-size: 100% 100%;
+}
+.hot{
+    display:flex; 
+    align-items:center; 
+    float: left;
+    width: 50%;
+    height: 100%;
+    font-size:170%;
+    text-align: left;
+    color: #ffa000;
+    margin-left: 15%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.hot:hover{
+    transition:color .5s;
+    color: #ffa000;
+}
+.cold{
+    display:flex; 
+    align-items:center;
+    float: left;
+    width: 50%;
+    height: 100%;
+    font-size:170%;
+    text-align: left;
+    color: #bfbfbf;
+    margin-left: 15%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.cold:hover{
+    transition:color .5s;
+    color: #ffa000;
+}
+.soop{
+    display:flex; 
+    align-items:center;
+    float: left;
+    width: 50%;
+    height: 100%;
+    font-size:170%;
+    text-align: left;
+    color: #bfbfbf;
+    margin-left: 15%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.soop:hover{
+    transition:color .5s;
+    color: #ffa000;
+}
+.drink{
+    display:flex; 
+    align-items:center;
+    float: left;
+    width: 50%;
+    height: 100%;
+    font-size:170%;
+    text-align: left;
+    color: #bfbfbf;
+    margin-left: 15%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.drink:hover{
+    transition:color .5s;
+    color: #ffa000;
+}
+.menu-hot{
+    display: block;
+    width: 100%;
+    height: 80%;
+    overflow: auto;
+    background-color:rgb(255, 255, 255,.7)
+}
+.menu-hot::-webkit-scrollbar {
+    width: .8%;    
+    /*height: 4px;*/
+}
+.menu-hot::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+}
+.menu-hot::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,.1);    
+}
+.menu-cold::-webkit-scrollbar {
+    width: .8%;    
+    /*height: 4px;*/
+}
+.menu-cold::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+}
+.menu-cold::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,.1);    
+}
+.menu-soop::-webkit-scrollbar {
+    width: .8%;    
+    /*height: 4px;*/
+}
+.menu-soop::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+}
+.menu-soop::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,.1);    
+}
+.menu-drink::-webkit-scrollbar {
+    width: .8%;    
+    /*height: 4px;*/
+}
+.menu-drink::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+}
+.menu-drink::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,.1);
+}
+.settle-menu::-webkit-scrollbar {
+    width: .8%;    
+    /*height: 4px;*/
+}
+.settle-menu::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+}
+.settle-menu::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,.1);
+}
+.table-menu::-webkit-scrollbar {
+    width: .8%;    
+    /*height: 4px;*/
+}
+.table-menu::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+}
+.table-menu::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,.1);
+}
+.history-menu::-webkit-scrollbar {
+    width: .8%;    
+    /*height: 4px;*/
+}
+.history-menu::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+}
+.history-menu::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,.1);
+}
+.food-list::-webkit-scrollbar {
+    width: 5%;    
+    /*height: 4px;*/
+}
+.food-list::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+}
+.food-list::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,.1);
+}
+
+
+
+.menu-cold{
+    display: none;
+    width: 100%;
+    height: 80%;
+    overflow: auto;
+    background-color:rgb(255, 255, 255,.7)
+}
+.menu-soop{
+    display: none;
+    width: 100%;
+    height: 80%;
+    overflow: auto;
+    background-color:rgb(255, 255, 255,.7)
+}
+.menu-drink{
+    display:none;
+    width: 100%;
+    height: 80%;
+    overflow: auto;
+    background-color:rgb(255, 255, 255,.7)
+}
+.picture{
+    display: inline-block;
+    width: 100%;
+    height: 70%;
+    background: ;
+}
+.block{
+    float: left;
+    width: 20%;
+    height: 40%;
+    margin-left: 4%;
+    margin-top: 3%;
+    border-radius: 5%;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px #bbbbbb;
+    background-color: #eeeeee;
+    border: 2px solid #ffa000;
+}
+.text{
+    display: inline-block;
+    width: 100%;
+    height: 30%;
+}
+.name{
+    display: inline-block;
+    width: 60%;
+    height: 30%;
+    color: #424242;
+    text-align: left;
+    margin-left: 5%;
+    font-size: 100%;
+}
+.cost{
+    display: inline-block;
+    width: 60%;
+    height: 70%;
+    margin-left: 5%;
+    color: #ffa000;
+    font-size: 110%;    
+}
+.price{
+    display: inline-block;
+    font-size: 120%
+}
+.choose{
+    width: 40%;
+    height: 50%;
+    margin-left: 60%;
+    margin-top: -20%;
+}
+.bottom{
+    float: left;
+    width: 32%;
+    height: 95%;
+    background: url(./ui/+.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+    margin-left: 7%;
+}
+.number{
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin-left: 8%;
+    text-align: center;
+    margin-top: 3%;
+}
+.bottom2{
+    float: left;
+    width: 32%;
+    height: 95%;
+    background: url(./ui/减号.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+
+}
+.choose2{
+    width: 30%;
+    height: 30%;
+    margin-left: 60%;
+
+}
+.fen{
+    width: 60%;
+    height: 100%;
+    color: #ffa000;
+    margin:  0 auto;
+    font-size: 250%;
+}
+.settle-menu{
+    display:none;
+    width: 100%;
+    height: 80%;
+    overflow: auto;
+    background-color:rgb(255, 255, 255,.7);
+    clear: both;
+}
+.table-menu{
+    display:none;
+    width: 100%;
+    height: 80%;
+    overflow: auto;
+    background-color:rgb(255, 255, 255,.7)
+}
+.history-menu{
+    display:none;
+    width: 100%;
+    height: 80%;
+    overflow: auto;
+    background-color:rgb(255, 255, 255,.7)
+}
+.item{
+    float: left;
+    overflow: hidden;
+    width: 40%;
+    height: 20%;
+    background-color: antiquewhite;
+    margin-left: 10%;
+    margin-top: 3%;
+    border-radius: 10px;
+    border: 1.5px solid #ffa000;
+}
+.picture2{
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+.settle-text{
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+.settle-name{
+    width: 80%;
+    height: 40%;
+    color: #424242;
+    font-size: 110%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+.settle-cost{
+    float: left;
+    width: 60%;
+    height: 40%;
+    margin-left: 10%;
+    color: #ffa000;
+    font-size: 120%;
+    margin-top: -1%
+}
+.settle-price{
+    float: left;
+    width: 40%;
+    height: 100%;
+    color: #ffa000;
+    font-size: 110%;
+    margin-top:-1.5%; 
+}
+.value{
+    position: fixed: ;
+    justify-content:center; 
+    align-items:center;
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    background-color: antiquewhite;
+    margin-left: 60%;
+    margin-top: 5%;
+    border-radius: 10px;
+    color: #424242;
+    font-size: 150%;
+    text-align: center;
+}
+#pos{
+    width: 60%;
+    height: 40%;
+    margin-left: 20%;
+    margin-top: 10%; 
+    font-size: 150%
+}
+.jiesuan{
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    background-color: #ffa000;
+    border-radius: 10px;
+    margin-top: 10%;
+    font-size: 80%;
+    margin-left: 25%;
+    cursor: pointer;
+}
+.set{
+    display: block;
+    width: 20%;
+    height: 8%;
+    background: url(./ui/退出.png);
+    background-size: 100% 100%;
+    margin-top: 35%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.table-num{
+    float: left;
+    width: 10%;
+    height: 15%;
+    background-color: antiquewhite;
+    margin-top: 3%;
+    margin-left: 8%;
+    border-radius: 10px;
+    text-align: center;
+    display:flex; 
+    justify-content:center; 
+    color: #424242;
+    align-items:center;
+    font-size: 130%;
+    cursor: pointer;
+
+}
+.table-num2{
+    float: left;
+    width: 10%;
+    height: 15%;
+    background-color: #cccccc;
+    margin-top: 3%;
+    margin-left: 8%;
+    border-radius: 10px;
+    text-align: center;
+    display:flex; 
+    justify-content:center; 
+    color: #424242;
+    align-items:center;
+    font-size: 130%;
+    cursor: pointer;
+
+}
+.history-list{
+    width: 80%;
+    height: 30%;
+    margin-left: 10%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: 5px 5px #cccccc;
+    margin-top: 6%;
+}
+.order{
+    float: left;
+    width: 15%;
+    height: 20%;
+    margin-top: 3%;
+    margin-left:5%; 
+    color: #424242;
+}
+.order-number{
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin-left: 70%;
+    color: #424242;
+    margin-top: -17%;
+}
+.time{
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin-top: 3%;
+    margin-left:5%; 
+    color: #424242;
+}
+.food{
+    float: left;
+    width: 70%;
+    height: 30%;
+    margin-top: 5%;
+    margin-left:5%; 
+    color: #424242;
+}
+.food-list{
+    overflow: auto;
+    width: 65%;
+    height: 100%;
+    margin-left: 34%;
+    margin-top: -9%;
+}
+.food-name{
+    width: 80%;
+    height: 25%;
+    margin-bottom: 5%;
+    background-color: #ffa000;
+    border-radius: 10px;
+}
+.food-cost{
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin-left: -25%;
+    color: #424242;
+    margin-top: -16%;
+}
+.order-cost{
+    float: left;
+    width: 15%;
+    height: 70%;
+    color: #424242;
+}
+.cost-money{
+    float: left;
+    width: 20%;
+    height: 10%;
+    color: #424242;
+    margin-left: -20%
+}
