@@ -22,7 +22,7 @@ function state() {
             type: "get",
             success: function (data) {
                 
-                    window.location.href = "http://localhost/order/login.html"
+                    window.location.href = "http://localhost/order2/login.html"
 
             }
         })
@@ -57,7 +57,7 @@ function tableMes() {
 
                     oTd.getElementsByTagName('a')[0].onclick = function () {
                         $.ajax({
-                            url: "http://localhost/order/deleteuser.php",
+                            url: "http://localhost/order2/deleteuser.php",
                             type: "post",
                             data: {
                                 uid:mes[i][0]
@@ -74,7 +74,7 @@ function tableMes() {
             }
         }
     }
-        xhr.open('GET', 'http://localhost/order/selectuser.php', true)
+        xhr.open('GET', 'http://localhost/order2/selectuser.php', true)
         xhr.send(null)
 }
 
@@ -125,7 +125,7 @@ function tableMes2() {
 
                     oTd.getElementsByTagName('a')[0].onclick = function () {
                         $.ajax({
-                            url: "http://localhost/order/deletecai.php",
+                            url: "http://localhost/order2/deletecai.php",
                             type: "post",
                             data: {
                                 uid:mes[i][0]
@@ -158,7 +158,7 @@ function tableMes2() {
             }
         }
     }
-    xhr.open('GET', 'http://localhost/order/selectcai', true)
+    xhr.open('GET', 'http://localhost/order2/selectcai', true)
     xhr.send(null)
 }
 window.onload = function () {
@@ -279,7 +279,7 @@ window.onload = function () {
 
                     oTd.getElementsByTagName('a')[0].onclick = function () {
                         $.ajax({
-                            url: "http://localhost/order/deleteuser",
+                            url: "http://localhost/order2/deleteuser",
                             type: "post",
                             data: {
                                 uid:mes[i][0]
@@ -296,7 +296,7 @@ window.onload = function () {
             }
                 }
             }
-xhr.open('POST','http://localhost/order/selectuserinfo')
+xhr.open('POST','http://localhost/order2/selectuserinfo')
         xhr.send(formContent)
         }
 
@@ -340,7 +340,7 @@ xhr.open('POST','http://localhost/order/selectuserinfo')
 
                     oTd.getElementsByTagName('a')[0].onclick = function () {
                         $.ajax({
-                            url: "http://localhost/order/deletecai.php",
+                            url: "http://localhost/order2/deletecai.php",
                             type: "post",
                             data: {
                                 uid:mes[i][0]
@@ -374,7 +374,7 @@ xhr.open('POST','http://localhost/order/selectuserinfo')
                     }
                 }
             }
-        xhr.open('POST','http://localhost/order/selectcaiinfo.php')
+        xhr.open('POST','http://localhost/order2/selectcaiinfo.php')
         xhr.send(formContent)
     }
     let updata=document.getElementById('updata')
@@ -398,7 +398,7 @@ xhr.open('POST','http://localhost/order/selectuserinfo')
             }
            
         }
-        xml.open('POST','http://localhost/order/insertcai.php')
+        xml.open('POST','http://localhost/order2/insertcai.php')
         xml.send(datas)
   }  
 }
